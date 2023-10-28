@@ -1,0 +1,39 @@
+
+footer {
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-right: 15px;
+    background-color: white;
+    color: #ccc;
+
+}
+
+footer ul {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: stretch;
+    align-items: center;
+}
+
+footer ul li {
+    padding: 0 0 0 20px;
+}
+
+footer ul li a {
+    font-size: 12px;
+    color: #8a8d91;
+}
+
+footer  h3 {
+    align-self: center;
+    display: block;
+    color: black;
+    font-size: 11px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 15px;
+
+}

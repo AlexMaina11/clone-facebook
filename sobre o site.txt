@@ -1,0 +1,40 @@
+Cores: .color1 { #7e949e };
+.color2 { #aec2ab };
+.color3 { #ebcea0 };
+.color4 { #fc7765 };
+.color5 { #ff335f };
+
+(site: https://paletadecores.com/paleta/7e949e/aec2ab/ebcea0/fc7765/ff335f/)
+
+
+        <div class="principal" id="home">
+            <div class="principal-conteudo">
+                <div class="principal-texto">
+                    <h1>nike</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sed unde id! Soluta eos modi reiciendis et sequi dolorem possimus, in dolores rerum cumque, ex deleniti alias blanditiis, esse quos.</p>
+                    <img src="img/bone.avif" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        
+section .principal .principal-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .principal .principal-conteudo .principal-texto h1 {
+    font-size: 90px;
+    line-height: 70px;
+    background: linear-gradient(to right, #ff335f, #fc7765);
+    font-family: pyxidium quick;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 45px;
+    left: 5%;
+}

@@ -1,0 +1,164 @@
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: white;
+}
+
+nav .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+
+    height: 56px;
+}
+
+nav .item h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1877f2;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+nav .item .itens ul {
+    display: flex;
+    align-items: center;
+}
+
+nav .item .itens ul li {
+    margin: 0 5px;
+}
+
+nav .item .itens ul li input {
+    height: 40px;
+    width: 188px;
+
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    padding: 8px 12px 10px;
+    font-size: 15px;
+}
+
+nav .item .itens ul li input:focus{
+    outline: 1px solid #1877f2;
+}
+nav .item .itens ul li input:focus::placeholder {
+    color: #e1e4e9;
+}
+
+nav .item .itens ul li button {
+    height: 40px;
+    width: 123px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: #1B74E4;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+    cursor: pointer;
+}
+
+nav .item .itens ul li a {
+    margin: auto 0;
+}
+
+/* Form */
+.cor {
+    padding: 82px 0;
+
+    background-color: #e9ebee;
+}
+
+.container {
+    margin: 0 auto;
+
+    background-color: white;
+    max-width: 500px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+
+}
+
+
+.container .itens h1 {
+    font-size: 20px;
+    padding: 16px 0 16px 16px;
+    line-height: 24px;
+    color: #1c1e21;
+}
+
+.container .itens hr {
+    border: 1px solid #f0f0f0;
+
+
+}
+
+.container .itens p {
+    font-size: 17px;
+    color: #1c1e21;
+    padding: 16px 0 16px 16px;
+}
+
+.container .itens input {
+    width: 462px;
+    height: 52px;
+    border: 1px solid #e1e4e9;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 16px 0 16px 16px;
+    margin: 0 0 16px 16px;
+}
+
+.container .itens input:focus, .container .itens input:active {
+    outline: 0;
+}
+
+.container .itens input:focus::placeholder {
+    color: #e4e6eb;
+}
+
+.container .itens .btn {
+    display: flex;
+    justify-content: end;
+    padding: 16px 0 16px 16px;
+    margin-right: 20px;
+}
+
+.container .itens .btn button {
+    width: 110px;
+    height: 36px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+.container .itens .btn button:nth-child(1) {
+    background-color: #e4e6eb;
+    color: #4b4f56;
+    font-size: 15px;
+}
+
+.container .itens .btn button:nth-child(2) {
+    background-color: #1877f2;
+    color: white;
+    font-size: 15px;
+}
+
+@media(max-width: 950px) {
+    nav .item .itens ul li input, .esqueceu-senha{
+        display: none;
+    }
+}
+
+/* footer */

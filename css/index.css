@@ -1,0 +1,149 @@
+.centro {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f2f5;
+}
+.container {
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 960px;
+    flex-wrap: wrap;
+    margin: auto 0;
+}
+
+.logo {
+    padding: 10px 0;
+    margin: 0 40px 0 0;
+    transform: translateY(-50%);
+
+}
+
+.logo h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1877f2;
+    font-size: 60px;
+}
+
+.logo p {
+    max-width: 500px;
+    font-size: 24px;
+}
+
+.formulario .fundo-branco  {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 10px;
+
+    
+}
+
+.formulario .fundo-branco input {
+    max-width: 400px;
+    height: 50px;
+
+    border: 1px solid #c9ccd1;
+    border-radius: 5px;
+    color: #c9ccd1;
+    font-size: 15px;
+
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.formulario .fundo-branco input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 1px solid #1877f2;
+
+}
+
+input:focus::placeholder{
+    color: #c9ccd1;
+}
+
+.btn-entrar {
+    max-width: 400px;
+    height: 50px;
+    margin: 5px;
+
+    background-color: #1877f2;
+    text-align: center;
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.formulario .fundo-branco a {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.btn-nova {
+    max-width: 170px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+
+    background-color: #42b72a;
+    text-align: center;
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+
+    align-self: center;
+    cursor: pointer;
+}
+
+
+
+hr {
+    border: 1px solid #c9ccd1;
+    max-width: 400px;
+    height: 1px;
+    margin: 0 5px;
+}
+
+.nova-pagina {
+    font-size: 14px;
+    padding: 28px 0 180px 0;
+    
+}
+
+@media(max-width: 970px) {
+    .container {
+        text-align: center;
+    }
+    .logo {
+
+        transform: translateY(0);
+    
+    }
+    .nova-pagina {
+        font-size: 14px;
+        padding: 28px 0 40px 0;
+        
+    }
+
+    footer  h3 {
+        margin: 1px 0 !important;
+    
+    }
+}
